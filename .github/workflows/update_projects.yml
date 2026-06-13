@@ -2,6 +2,9 @@ name: Update Portfolio Projects
 
 on:
   workflow_dispatch:
+  
+permissions:
+  contents: write
 
 jobs:
   update-projects:
